@@ -1,13 +1,7 @@
-.wrap {
-  display: flex;
-  gap: 11px;
-  padding-bottom: 20px;
-}
 .btn {
   cursor: pointer;
   border: 1px solid black;
   border-radius: 5px;
-  width: 150px;
   background-image: linear-gradient(
     to right,
     #9eefe1 0%,

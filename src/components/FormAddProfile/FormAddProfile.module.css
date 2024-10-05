@@ -1,0 +1,66 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 10px;
+  border: 1px solid #2f4f4f;
+  border-radius: 5px;
+  background: #2f4f4f;
+  color: #ffffff;
+  width: 400px;
+  margin: 0 auto;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+}
+.textLabel {
+  font-weight: 350;
+  font-size: 18px;
+}
+.input {
+  font-weight: 350;
+  font-size: 20px;
+  height: 40px;
+  width: 300px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  background: transparent;
+  padding: 5px 10px;
+  font-weight: 350;
+  font-size: 20px;
+  color: #ffffff;
+}
+input:hover {
+  border: 1px solid #2745f1c2;
+}
+.statusWrap {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.textCheckbox {
+  font-weight: 350;
+  font-size: 20px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ecf8f81e;
+  height: 40px;
+  width: 150px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+}
+.btn:hover {
+  color: #ffffff;
+}
+.errorMessage {
+  color: red;
+}
+.promoCode {
+  color: #a4af0e;
+  font-weight: 350;
+  font-size: 24px;
+}

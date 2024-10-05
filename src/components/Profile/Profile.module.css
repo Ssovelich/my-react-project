@@ -1,0 +1,39 @@
+.profile {
+  position: relative;
+  border: 1px solid #2f4f4f;
+  border-radius: 5px;
+  background: #696969;
+  color: #ffffff;
+  padding: 15px;
+  width: 400px;
+}
+.btnDel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background: #464646;
+  border: 1px solid #2f4f4f;
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+}
+.btnDel:hover {
+  background: transparent;
+  border: 1px solid #2f4f4f;
+}
+.btnSay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ecf8f81e;
+  height: 40px;
+  width: 150px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+}
+.btnSay:hover {
+  color: #ffffff;
+}
