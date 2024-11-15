@@ -1,17 +1,12 @@
 .btn {
   cursor: pointer;
-  border: 1px solid black;
-  border-radius: 5px;
-  background-image: linear-gradient(
-    to right,
-    #9eefe1 0%,
-    #4830f0 51%,
-    #9eefe1 100%
-  );
-  background-size: 200% auto;
-  transition: 0.5s;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  margin-bottom: 30px;
 }
+
 .btn:hover {
-  border: 1px solid rgba(37, 151, 245, 0.801);
-  background-position: right center;
+  transform: scale(1.1);
 }

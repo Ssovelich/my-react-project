@@ -2,15 +2,15 @@
   cursor: pointer;
   border: none;
   border-radius: 5px;
-  background-image: linear-gradient(
-    to right,
-    #7041f160 0%,
-    #ba30f0 51%,
-    #7041f160 100%
-  );
-  background-size: 200% auto;
+  background: #12c57a;
   transition: 0.5s;
+  margin-bottom: 50px;
 }
 .btn:hover {
-  background-position: right center;
+  background: #03e8f47a;
+}
+.btn {
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+  box-shadow: 0 0 5px #03e9f4, 0 0 15px #03e9f4, 0 0 25px #03e9f4,
+    0 0 100px #03e9f4;
 }
